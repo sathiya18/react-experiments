@@ -3,6 +3,8 @@ import './App.css';
 import Header from './Header';
 import Content from './Content';
 import Footer from './Footer';
+import ContentHooks from './ContentHooks';
+import ContentHooks1 from './ContentHooks1';
 // function changeWord()
 // {
 //  const names=["learn","Earn","Give"];
@@ -22,7 +24,9 @@ function App() {
       
           <>
           <Header />
-          <Content />
+          {/* <Content /> */}
+          {/* <ContentHooks /> */}
+          <ContentHooks1/>
           <Footer/>
           </>
           
