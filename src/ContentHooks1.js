@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 
  
 const ContentHooks1 = () => {
- const [name,setName]=useState("Learn")
+ 
+ 
+    const [name,setName]=useState("Learn")
 function changeWord()
     {
         const names=["Learn","Earn","Give"];

@@ -24,10 +24,10 @@ const Content = () => {
     <main>
     <div>Lets {changeWord()} Knowledge
     <p  onDoubleClick={() => handleClick2("FSD")}>Hello</p></div>
-    {/* <button onClick ={handleClick}>Register</button> */}
-    <button onClick ={ handleClick2('FSD')}>Register</button>
-    {/* <button onClick ={() => handleClick2('cse')}>Register</button> */}
-    {/* <button onClick ={(e) => handleClick3(e)}>Register2</button> */}
+    <button onClick ={handleClick}>Register</button>
+    {/* <button onClick ={ handleClick2('FSD')}>Register1</button> */}
+    {/* <button onClick ={() => handleClick2('cse')}>Register1</button> */}
+    <button onClick ={(e) => handleClick3(e)}>Register2</button>
    
     
     </main>

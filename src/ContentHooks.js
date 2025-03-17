@@ -14,16 +14,16 @@ const ContentHooks = () => {
         console.log("visit ptuniv.edu.in")
     }
     const [count,setCount]=useState(99);
-    //const [name,setName]=useState(namee())
-    const [name,setName]=useState(() => namee())
+    const [name,setName]=useState(namee())
+    // const [name,setName]=useState(() => namee())
     function incrementFunction(){
         // setCount(count + 1)
         //check what happens
         // setCount(count + 1)
         // setCount(count + 1)
         setCount((count) => {return count + 1})
-        // setCount((count) => {return count + 1})
-        // setCount((count) => {return count + 1})
+        setCount((count) => {return count + 1})
+        setCount((count) => {return count + 1})
 
     }
     function decrementFunction(){

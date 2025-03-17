@@ -5,6 +5,7 @@ import Content from './Content';
 import Footer from './Footer';
 import ContentHooks from './ContentHooks';
 import ContentHooks1 from './ContentHooks1';
+import ContentDesign from './ContentDesign';
 // function changeWord()
 // {
 //  const names=["learn","Earn","Give"];
@@ -26,7 +27,8 @@ function App() {
           <Header />
           {/* <Content /> */}
           {/* <ContentHooks /> */}
-          <ContentHooks1/>
+          {/* <ContentHooks1/> */}
+          <ContentDesign />
           <Footer/>
           </>
           
