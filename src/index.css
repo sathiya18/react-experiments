@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -11,12 +12,18 @@ html {
 body {
   min-height: 100vh;
   font-family: 'Roboto', 'Oxygen',
+=======
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+>>>>>>> de52a8c (Initialize project using Create React App)
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+<<<<<<< HEAD
 .App {
   display: flex;
   flex-direction: column;
@@ -57,3 +64,9 @@ footer {
   display: grid;
   place-content: center;
 }
+=======
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+>>>>>>> de52a8c (Initialize project using Create React App)
