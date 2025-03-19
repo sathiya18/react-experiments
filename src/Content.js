@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 function changeWord()
 {
  const names=["learn","Earn","Give"];
@@ -29,6 +30,40 @@ const Content = () => {
     <button onClick ={(e) => handleClick3(e)}>Register2</button>
    
     
+=======
+
+import { FaTrashAlt } from 'react-icons/fa'
+
+const Content = ({items,setItems,handleCheck,handleDelete}) => {
+    
+   return (
+    <main>
+        {(items.length)? (
+        <ul>
+            {items.map((item) =>(
+                <li className="item" key={item.id}>
+                    <input
+                        type="checkbox"
+                        onChange={()=> handleCheck(item.id)}
+                        checked={item.checked}
+                    />
+                    <label
+                      style={(item.checked)?
+                      {textDecoration:"line-through"}:null }
+                      onDoubleClick={()=> handleCheck(item.id)}>{item.item}</label>
+                    {/* <button>Delete</button> */}
+                    <FaTrashAlt
+                     role="button"
+                     onClick={() => handleDelete(item.id)}
+                     tabIndex="0"
+                    />
+                </li>                  
+        ))}
+        </ul>
+        ) : (
+            <p style={{marginTop:'2rem', color:"rosybrown"}}>Your List is Empty</p>
+        )}
+>>>>>>> ca1b8c6 (Day X: Added Props)
     </main>
   )
 }
